@@ -10,15 +10,17 @@
   li {font-size:23px;border:1.4px solid black;padding:5px;display:inline}
   ul {border-right:2px solid black;width:90px;padding:30px;padding-left:80px;padding-right:45px;margin:0;padding-top:50px}
   #grid {display:grid;grid-template-columns:280px 1fr}
+  @media(max-width:900px)
+  {#grid {display:block} .small {display:none} body {text-align:center} ul {padding:0;border:none;display:inline} li {display:inline-block;margin:15px;margin-top:30px}}
 </style>
 </head>
 <body>
   <h1><a href="index.html">HYOENSU'S DUSTY HOME</a></h1>
   <div id="grid">
     <ul>
-      <li><a href="1.html" style="color:pink;">LOG</a></li><br><br>
-      <li><a href="2.html">DIARY</a></li><br><br>
-      <li><a href="3.html">OOTD</a></li><br><br>
+      <li><a href="1.html" style="color:pink;">LOG</a></li><br class="small"><br class="small"><br class="small">
+      <li><a href="2.html">DIARY</a></li><br class="small"><br class="small"><br class="small">
+      <li><a href="3.html">OOTD</a></li><br><br><br>
     </ul>
     <div>
       <br><h2 style="font-size:30px">LOG</h2>
@@ -26,7 +28,7 @@
         Hello, Here is <strong>Hyeonsu</strong>'s <u>dusty</u> home. XD<br>
         Have a good time!<br>
         <strong><a href="https://www.instagram.com/2o_x1/" target="_blank" title="2o_x1" style="color:hotpink">Click!: Hyeonsu's instagram</a></strong><br><br>
-        <img src="jk.jpg" alt="jk"><br><br>
+        <img src="jk.jpg" alt="jk">
       </p>
     </div>
   </div>
